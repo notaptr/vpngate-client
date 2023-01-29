@@ -5,3 +5,4 @@
 - __download-list.sh__              bash script for servers base download (wget needed)
 - __vpngate_2023-01-17.csv__        bootstrab server list database, if you network provider blocking download server list.
 - __vpngate.policy__                example file for pkexec, for run application as root
+- __vnpgate-client-0.3.2__          application build with Qt Framework 5.15.2 
