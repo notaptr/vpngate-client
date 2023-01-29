@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+	<icon_name>yast-security</icon_name>
+	<vendor>atlast</vendor>
+	<vendor_url></vendor_url>
+	<action id="vpngate">
+
+		<description>Run VPNGate as root</description>
+		<description xml:lang="ru">Запустить VPNGate с правами администратора</description>
+
+		<message>Authentication is required to run VPNGate as root.</message>
+		<message xml:lang="ru">Для запуска VPNGate с правами администратора требуется аутентификация.</message>
+
+		<defaults>
+			<allow_any>auth_admin</allow_any>
+			<allow_inactive>auth_admin</allow_inactive>
+			<allow_active>auth_admin</allow_active>
+		</defaults>
+		<annotate key="org.freedesktop.policykit.exec.path">/usr/bin/vpngate</annotate>
+		<annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+
+	</action>
+
+</policyconfig>
