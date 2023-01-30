@@ -6,3 +6,5 @@
 For build, you need the Qt Framework and OpenVPN installed on your system. Application interface on Russian language, at the moment, there is no English translation.
 
 Good luck.
+
+Документация на русском в каталоге install. Английского перевода нет, мне не нужен был.
